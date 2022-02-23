@@ -19,19 +19,94 @@ editor_options:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+<style>
+.scrollable-slide {
+    height: 600px;
+    overflow-y: auto !important;
+</style>
+
+
+# Resumen
+
+- De cómo pasé de enseñar las asignaturas biogeografía y geomorfología en el aula tradicional, a impulsar la **evaluación continua** basada en programación informática, estadística y redacción de **manuscritos científicos reproducibles** usando herramientas libres.
+
+# ¿Cómo es el "mundillo" de la ciencia y la publicación científica?
+
+- Desde hace quizá unos 20 años, parte de la comunidad científica está visibilizando prácticas que empobrecen el avance del conocimiento. Algunas de estas prácticas son:
+
+## ![](img/ciencia-colonial.jpg){width=75%}
+<small>Ciencia colonial. Fuente: https://www.scientificamerican.com/article/the-problem-of-colonial-science/</small>
+
+## ![](img/racismo.jpg)
+<small>Racismo. Fuente: https://www.youtube.com/watch?v=gAMY0SII5gk</small>
+
+## ![](img/sexismo.jpg)
+<small>Sexismo. Fuente: https://www.buzzfeednews.com/article/nishitajha/smithsonian-tropical-research-institute-metoo</small>
+
+## Además ...
+
+- LGTBIfobia.
+
+- Elitismo.
+
+- Gatekeeping.
+
+- Y otros ...
+
+## ![](img/todo-lo-anterior-dalton-sentado-lyell-de-pie-darwin-izquierda.jpg){width=65%}
+<small>"Naturalistas" en la bibliografía. Fuente: Lomolino et. al (2010)</small>
+
+## Proceso de revisión / publicación de artículos
+
+- Todo lo anterior empobrece la producción de conocimiento y, específicamente, la producción de conocimiento y posterior publicación es ...
+
+  - ... extremadamente **costosa**.
+  
+  - ... no se garantiza la **reproducibilidad**
+
+## 
+
+<div class="scrollable-slide">
+![](img/publicar-segun-uoc.jpg)
+<small>https://biblioteca.uoc.edu/es/pagina/Publicar-un-articulo-cientifico</small>
+</div>
+
+## ![](img/manuscript-land-map.jpg){width=75%}
+<small>Fuente: https://www.redbubble.com/es/people/redpenblackpen/works/31838013-the-map-of-manuscript-earth</small>
+
+## ![](img/paywall-the-movie.jpg){width=75%}
+<small>Fuente: https://paywallthemovie.com/</small>
+
+## ![](img/scihub.jpg)
+<small>Fuente: https://sci-hub.se/</small>
+
+## ![](img/satira-nature.jpg){width=50%}
+<small>Fuente: https://twitter.com/DGlaucomflecken/status/1494084038671298560</small>
+
+## ![](img/publicar-segun-pci.png)
+<small>Fuente: https://animsci.peercommunityin.org/help/help_generic#h_96049776012201619025558632</small> 
+
+<!-- ##  -->
+<!-- <iframe width="100%" height="600" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-external="1"></iframe> -->
+<!-- <span style="font-size:60%;">[]()</span> -->
+
 # Motivación
+
+- Replicabilidad / reproducibilidad
+
+- Sostenibilidad financiera y accesibilidad
 
 ## Replicabilidad / reproducibilidad
 
-> La ciencia está en crisis, una crisis de replicabilidad / reproducibilidad. Difícilmente un grupo de investigación reproduce el resultado que obtuvo otro. Se atribuye este déficit a que, al publicar los resultados, no se aportan ni las fuentes, ni los métodos empleados.
+##
 
-<p style="text-align:right;">Fdo. "El tali"</p>
+- La ciencia está en crisis ... de replicabilidad / reproducibilidad. Difícilmente un grupo de investigación reproduce el resultado que obtuvo otro. Se atribuye este déficit a que, al publicar los resultados, no se aportan ni las fuentes, ni los métodos empleados.
 
 ## Replicabilidad / reproducibilidad
 
 - Replicabilidad: nuevo experimento => mismos métodos => mismas conclusiones
 
-- Reproducibilidad: usar mismos datos y métodos => mismas conclusiones.
+- Reproducibilidad: aplicar mismos métodos a mismos <br> datos => mismas conclusiones.
 
 ## ![](img/reproducibility-crisis.jpg){width=70%}
 <small> Fuente: https://www.nature.com/articles/533452a </small>
@@ -40,69 +115,60 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Sostenibilidad financiera y accesibilidad
 
-![](img/empujan-camioneta.png){width=80%}
+## ![](img/empujan-camioneta.png){width=80%}
 
-## Sostenibilidad financiera y accesibilidad
+## ![](img/dos-rutas-sd-ocoa.jpg)
 
-## ![](img/paso-privativo-libre.png)
+## ![](img/dos-rutas-sd-mana.jpg)
 
-- Software libre
+## ![](img/paso-privativo-libre.png){width=80%}
 
-- Software de código abierto
+## Hardware
 
-- Servicios gratuitos / servicios de pago
+- No olvidemos el hardware: para hacer ciencia de la forma tradicional, normalmente se necesitan costosos equipos. Las alternativas son:
 
-- ¿Hardware también?
+  - Hardware DIY.
+  
+  - Hardware de bajo costo sin ataduras a licencias privativas.
 
-- La diversidad en la ciencia
+# ¿Cómo implementarlo para estudiantes?
 
-<!-- - Ciencia colonial, Wilson, Raven, niños en laguna de Cabral -->
-
-- Ciencia colonial
-
-## El manuscrito científico, y su procesamiento, como registro del conocimiento
-
-- La industria de las editoriales científicas
-
-- Las alternativas
-
-- *The Map of Manuscript-Earth*
-
-# Ecosistema / recursos
-
-## Datos fuente
-
-
-
-## Servicios en la nube
-
-
-
-# Desarrollo de las asignaturas
-
-## ¿Cómo redactar?
+## Básicamente ...
 
 El apoyo fundamental es la "Guía para la redacción del manuscrito".
 
 - Alimentar una lista de referencias útiles en formato estándar (bibtex)
 
-- Generar resultados obtenidos mediante código reproducible. 
+- Generar resultados obtenidos mediante código reproducible.
 
-  - Significancia
+- Insertar en el manuscrito el soporte gráfico y analítico generado.
 
-- Redactar las partes correspondientes
+- Redactar las partes correspondientes usando la guía.
 
+- Solicitar ayuda, para todo lo anterior.
 
-## Control de versiones
+##
 
+<div class="scrollable-slide">
+![](img/proceso-manuscrito.jpg)
+</div>
 
 
 ## Lecciones
 
+- Sobre programación.
 
+- Sobre redacción.
+
+- Sobre virtualidad.
 
 ## Desafíos
 
+- Vuelta a la presencialidad.
+
+- Incoporación de la visita de campo al flujo de trabajo.
+
+- Mantenimiento en el tiempo del soporte informático.
 
 
 # REFERENCIAS
