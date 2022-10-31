@@ -1,7 +1,7 @@
 ---
-title: "Enseñar a escribir resultados científicos: lecciones, desafíos"
+title: "Enseñar a producir y escribir resultados científicos: lecciones, desafíos y aplicaciones"
 author: "José Ramón Martínez Batlle <br> <small>GitHub: github.com/geofis <br> Tw: geografiard</small>"
-date: "Escuela de Ciencias Geográficas <br> Facultad de Ciencias <br> Universidad Autónoma de Santo Domingo (UASD) <br> 22 de febrero de 2022 <br> <br> <small>URL de esta presentación: <br> https://geofis.github.io/escribir-ciencia</small>"
+date: "Universidad Autónoma de Santo Domingo (UASD) <br> 31 de octubre de 2022 <br> <br> <small>URL de esta presentación: <br> https://geofis.github.io/escribir-ciencia</small>"
 output:
   revealjs::revealjs_presentation:
     title-slide-attributes:
@@ -26,39 +26,24 @@ knitr::opts_chunk$set(echo = FALSE)
 </style>
 
 
-# Resumen
+# Guión
 
-- De cómo pasé de enseñar las asignaturas biogeografía y geomorfología en el aula tradicional, a impulsar la **evaluación continua** basada en programación informática, estadística y redacción de **manuscritos científicos reproducibles** usando herramientas libres.
+> De cómo evitar que nuestra "pequeña" academia se convierta nuestro infierno grande
+
+  - El "mundillo" de la publicación científica.
+  - Sorteando obstáculos.
+  - ¿Qué alternativa tenemos? Ciencia abierta.
+  - ¿Cómo implementarlo para estudiantes?
+  - Lecciones y desafíos.
+    
+
+<!-- - De cómo pasé de enseñar las asignaturas biogeografía y geomorfología en el aula tradicional, a impulsar la **evaluación continua** basada en programación informática, estadística y redacción de **manuscritos científicos reproducibles** usando herramientas libres. -->
 
 # ¿Cómo es el "mundillo" de la ciencia y la publicación científica?
 
-- Desde hace quizá unos 20 años, parte de la comunidad científica está visibilizando prácticas que empobrecen el avance del conocimiento. Algunas de estas prácticas son:
-
-## ![](img/ciencia-colonial.jpg){width=75%}
-<small>Ciencia colonial. Fuente: https://www.scientificamerican.com/article/the-problem-of-colonial-science/</small>
-
-## ![](img/racismo.jpg)
-<small>Racismo. Fuente: https://www.youtube.com/watch?v=gAMY0SII5gk</small>
-
-## ![](img/sexismo.jpg)
-<small>Sexismo. Fuente: https://www.buzzfeednews.com/article/nishitajha/smithsonian-tropical-research-institute-metoo</small>
-
-## Además ...
-
-- LGTBIfobia.
-
-- Elitismo.
-
-- Gatekeeping.
-
-- Y otros ...
-
-## ![](img/todo-lo-anterior-dalton-sentado-lyell-de-pie-darwin-izquierda.jpg){width=65%}
-<small>"Naturalistas" en la bibliografía. Fuente: Lomolino et. al (2010)</small>
-
 ## Proceso de revisión / publicación de artículos
 
-- Todo lo anterior empobrece la producción de conocimiento y, específicamente, la producción de conocimiento y posterior publicación es ...
+- La producción de conocimiento, y su posterior publicación es, siguiendo el modelo de *bussiness as usual*, ...
 
   - ... extremadamente **costosa**.
   
@@ -83,22 +68,72 @@ knitr::opts_chunk$set(echo = FALSE)
 ## ![](img/satira-nature.jpg){width=50%}
 <small>Fuente: https://twitter.com/DGlaucomflecken/status/1494084038671298560</small>
 
-## ![](img/publicar-segun-pci.png)
-<small>Fuente: https://animsci.peercommunityin.org/help/help_generic#h_96049776012201619025558632</small> 
-
 <!-- ##  -->
 <!-- <iframe width="100%" height="600" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-external="1"></iframe> -->
 <!-- <span style="font-size:60%;">[]()</span> -->
 
-# Motivación
+# Sorteando obstáculos
 
-- Replicabilidad / reproducibilidad
+- Para colmo, la cosa no queda ahí. Inequidades empobrecen la producción de conocimiento.
 
-- Sostenibilidad financiera y accesibilidad
+- Desde hace quizá unos 20 años, parte de la comunidad científica está visibilizando prácticas que empobrecen el avance del conocimiento. Algunas de estas prácticas son:
+
+## ![](img/ciencia-colonial.jpg){width=75%}
+<small>Ciencia colonial. Fuente: https://www.scientificamerican.com/article/the-problem-of-colonial-science/</small>
+
+## ![](img/racismo.jpg)
+<small>Racismo. Fuente: https://www.youtube.com/watch?v=gAMY0SII5gk</small>
+
+## ![](img/sexismo.jpg)
+<small>Sexismo. Fuente: https://www.buzzfeednews.com/article/nishitajha/smithsonian-tropical-research-institute-metoo</small>
+
+## Inglés como idioma por defecto
+
+![](img/ingles_por_defecto_1.jpg)
+<small>Fuente: https://doi.org/10.1371/journal.pone.0238372</small>
+
+## ![](img/ingles_por_defecto_2.jpg)
+<small>Fuente: https://doi.org/10.1073/pnas.2119373119</small>
+
+
+## ![](img/profzi_scheme.jpg)
+
+<small>Esquema "Profzi". Fuente: https://phdcomics.com/comics/archive_print.php?comicid=1144</small>
+
+
+## Además ...
+
+- LGTBIfobia.
+
+- Elitismo.
+
+- Gatekeeping.
+
+- Y otros ...
+
+## ![](img/todo-lo-anterior-dalton-sentado-lyell-de-pie-darwin-izquierda.jpg){width=65%}
+<small>"Naturalistas" en la bibliografía. Fuente: Lomolino et. al (2010)</small>
+
+## Y también #leavingacademia ...
+
+![](img/leaving_academia_1.jpg){width=65%}
+<small>¿Llegó la renunncia masiva a la academia? Fuente: https://www.nature.com/articles/d41586-022-01512-6</small>
+
+## ![](img/leaving_academia_2.jpg){width=80%}
+
+<small>Consejos. Fuente: https://www.apa.org/monitor/2022/03/career-leaving-academia</small>
+
+# ¿Qué alternativa tenemos? Ciencia abierta
+
+- Replicabilidad / reproducibilidad.
+
+- Sostenibilidad: proyectos, hardware, software.
+
+- Acceso diamante y proceso de publicación transparante.
+
+- Casos de éxito, aplicaciones.
 
 ## Replicabilidad / reproducibilidad
-
-##
 
 - La ciencia está en crisis ... de replicabilidad / reproducibilidad. Difícilmente un grupo de investigación reproduce el resultado que obtuvo otro. Se atribuye este déficit a que, al publicar los resultados, no se aportan ni las fuentes, ni los métodos empleados.
 
@@ -113,7 +148,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## ![](img/stop-hiding-your-code.png)
 
-## Sostenibilidad financiera y accesibilidad
+## Sostenibilidad: "proyectos" de presupuesto CERO
 
 ## ![](img/empujan-camioneta.png){width=80%}
 
@@ -121,9 +156,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## ![](img/dos-rutas-sd-mana.jpg)
 
-## ![](img/paso-privativo-libre.png){width=80%}
+## ![](img/proyecto-presupuesto-cero.jpg){width=45%}
 
-## Hardware
+<small>Presupuesto 0, sin inv. principal, sin "antecedentes". Fuente: https://twitter.com/rdpalacio/status/1585038230587858944</small>
+
+## Sostenibilidad: software
+
+![](img/paso-privativo-libre-2.png){width=70%}
+
+## Sostenibilidad: hardware
 
 - No olvidemos el hardware: para hacer ciencia de la forma tradicional, normalmente se necesitan costosos equipos. Las alternativas son:
 
@@ -131,13 +172,46 @@ knitr::opts_chunk$set(echo = FALSE)
   
   - Hardware de bajo costo sin ataduras a licencias privativas.
 
+## ![](img/armando-hardware.jpg)
+
+## ![](img/open-science-hardware-gosh.jpg)
+
+<small>Comunidad de hardware para ciencia abierta. Twitter: \@GOSHCommunity</small>
+
+## Acceso diamante y proceso de publicación transparante
+
+![](img/publicar-segun-pci.png)
+<small>Fuente: https://animsci.peercommunityin.org/help/help_generic#h_96049776012201619025558632</small> 
+
+## Casos de éxito, aplicaciones
+
+## ![](img/caso-exito-aplicacion-1.png)
+
+##
+![](img/caso-exito-aplicacion-2.jpg){width=65%}
+![](img/caso-exito-aplicacion-2b.jpg)
+
+## ![](img/caso-exito-aplicacion-3.jpg)
+
+## ![](img/caso-exito-aplicacion-4.jpg){width=60%}
+
+## ![](img/caso-exito-aplicacion-5a.png)
+
+## ![](img/caso-exito-aplicacion-5b.jpg)
+
+## ![](img/caso-exito-aplicacion-6.jpg)
+
+## ![](img/caso-exito-aplicacion-7.jpg)
+
+## ![](img/caso-exito-aplicacion-8.gif)
+
 # ¿Cómo implementarlo para estudiantes?
 
 ## Básicamente ...
 
 El apoyo fundamental es la "Guía para la redacción del manuscrito".
 
-- Alimentar una lista de referencias útiles en formato estándar (bibtex)
+- Alimentar una lista de referencias útiles en formato estándar (Zotero)
 
 - Generar resultados obtenidos mediante código reproducible.
 
@@ -153,12 +227,25 @@ El apoyo fundamental es la "Guía para la redacción del manuscrito".
 ![](img/proceso-manuscrito.jpg)
 </div>
 
+# Lecciones y desafíos
 
-## Lecciones
+## Lecciones aprendidas: programación
 
-- Sobre programación.
+- Libertad para elegir lenguajes, incluso herramientas.
 
-- Sobre redacción.
+- "Informática 101" es un lugar idóneo para comenzar a enfrentarse a los lenguajes.
+
+## Lecciones aprendidas: análisis y redacción.
+
+- El esquema IMRaD no es intuitivo.
+
+- El AED es el primer paso, después, lo que quieras.
+
+- Tenemos muchas tareas pendientes en nuestro sistema educativo, pero **fomentar la capacidad de extraer conclusiones a partir análisis e interpretación es fundamental**.
+
+- Organización de secciones.
+
+- El párrafo y la fluidez del texto.
 
 - Sobre virtualidad.
 
