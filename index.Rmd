@@ -56,8 +56,11 @@ knitr::opts_chunk$set(echo = FALSE)
 <small>https://biblioteca.uoc.edu/es/pagina/Publicar-un-articulo-cientifico</small>
 </div>
 
-## ![](img/manuscript-land-map.jpg){width=75%}
+##
+<div class="scrollable-slide">
+![](img/manuscript-land-map.jpg)
 <small>Fuente: https://www.redbubble.com/es/people/redpenblackpen/works/31838013-the-map-of-manuscript-earth</small>
+</div>
 
 ## ![](img/paywall-the-movie.jpg){width=75%}
 <small>Fuente: https://paywallthemovie.com/</small>
